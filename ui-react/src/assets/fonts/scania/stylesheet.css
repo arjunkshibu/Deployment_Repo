@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Scania Sans CY Headline';
+    src: url('ScaniaSansCYHeadline-Bold.eot');
+    src: local('Scania Sans CY Headline Bold'), local('ScaniaSansCYHeadline-Bold'),
+        url('ScaniaSansCYHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCYHeadline-Bold.woff2') format('woff2'),
+        url('ScaniaSansCYHeadline-Bold.woff') format('woff'),
+        url('ScaniaSansCYHeadline-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY';
+    src: url('ScaniaSansCY-Bold.eot');
+    src: local('Scania Sans CY Bold'), local('ScaniaSansCY-Bold'),
+        url('ScaniaSansCY-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCY-Bold.woff2') format('woff2'),
+        url('ScaniaSansCY-Bold.woff') format('woff'),
+        url('ScaniaSansCY-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY Condensed';
+    src: url('ScaniaSansCYCondensed-Regular.eot');
+    src: local('Scania Sans CY Condensed Regular'), local('ScaniaSansCYCondensed-Regular'),
+        url('ScaniaSansCYCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCYCondensed-Regular.woff2') format('woff2'),
+        url('ScaniaSansCYCondensed-Regular.woff') format('woff'),
+        url('ScaniaSansCYCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY Condensed';
+    src: url('ScaniaSansCYCondensed-Italic.eot');
+    src: local('Scania Sans CY Condensed Italic'), local('ScaniaSansCYCondensed-Italic'),
+        url('ScaniaSansCYCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCYCondensed-Italic.woff2') format('woff2'),
+        url('ScaniaSansCYCondensed-Italic.woff') format('woff'),
+        url('ScaniaSansCYCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY Headline';
+    src: url('ScaniaSansCYHeadline-Regular.eot');
+    src: local('Scania Sans CY Headline Regular'), local('ScaniaSansCYHeadline-Regular'),
+        url('ScaniaSansCYHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCYHeadline-Regular.woff2') format('woff2'),
+        url('ScaniaSansCYHeadline-Regular.woff') format('woff'),
+        url('ScaniaSansCYHeadline-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY';
+    src: url('ScaniaSansCY-Italic.eot');
+    src: local('Scania Sans CY Italic'), local('ScaniaSansCY-Italic'),
+        url('ScaniaSansCY-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCY-Italic.woff2') format('woff2'),
+        url('ScaniaSansCY-Italic.woff') format('woff'),
+        url('ScaniaSansCY-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY';
+    src: url('ScaniaSansCY-Regular.eot');
+    src: local('Scania Sans CY Regular'), local('ScaniaSansCY-Regular'),
+        url('ScaniaSansCY-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCY-Regular.woff2') format('woff2'),
+        url('ScaniaSansCY-Regular.woff') format('woff'),
+        url('ScaniaSansCY-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans CY Condensed';
+    src: url('ScaniaSansCYCondensed-Bold.eot');
+    src: local('Scania Sans CY Condensed Bold'), local('ScaniaSansCYCondensed-Bold'),
+        url('ScaniaSansCYCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ScaniaSansCYCondensed-Bold.woff2') format('woff2'),
+        url('ScaniaSansCYCondensed-Bold.woff') format('woff'),
+        url('ScaniaSansCYCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

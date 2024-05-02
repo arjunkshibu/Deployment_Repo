@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Scania";
+    src: url("../fonts/scania/ScaniaSansCYHeadline-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Cabin";
+    src: url("../fonts/cabin/Cabin-Regular-TTF.ttf");
+  }
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 1s linear infinite
+}
+.loader::before , .loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  animation: prixClipFix 2s linear infinite ;
+}
+.loader::after{
+  transform: rotate3d(90, 90, 0, 180deg );
+  border-color: #FF3D00;
+}
+
+@keyframes rotate {
+  0%   {transform: rotate(0deg)}
+  100%   {transform: rotate(360deg)}
+}
+
+@keyframes prixClipFix {
+    0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+    50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+    75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+}
+.custom-box-shadow {
+  @apply shadow-md;
+  box-shadow: 0px 1.2px  rgba(0, 0, 0, 0.028),
+    0px 2.9px 33.3px rgba(0, 0, 0, 0.04), 0px 5.4px 62.6px rgba(0, 0, 0, 0.05),
+    0px 9.6px 111.7px rgba(0, 0, 0, 0.06), 0px 18px 208.9px rgba(0, 0, 0, 0.072),
+    0px 43px 500px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn_home {
+ display: inline-block;
+ border-radius: 4px;
+ background-color: #3d405b;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 14px;
+ padding: 16px;
+ width: 130px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+.btn_home span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+.btn_home span:after {
+ content: '»';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+.btn_home:hover span {
+ padding-right: 15px;
+}
+
+.btn_home:hover span:after {
+ opacity: 1;
+ right: 0;
+}
